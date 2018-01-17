@@ -69,7 +69,7 @@ public class TestDemo {
         Assert.assertEquals("La temperatura es = 89.6", resultado.getText());
         
     }
-    //@Ignore
+    @Ignore
     @Test
     public void registroVacio() throws InterruptedException {
         Thread.sleep(5000);
