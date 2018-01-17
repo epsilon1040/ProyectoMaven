@@ -37,7 +37,7 @@ public class TestDemo {
     public void setUp() throws IOException {
        //System.setProperty("webdriver.chrome.driver", "/usr/bin/geckodriver");
        //System.setProperty("webdriver.chrome.driver", new File("./src/test/java/Resources/chromedriver.exe").getCanonicalPath()); 
-       System.setProperty("webdriver.gecko.driver", new File("./src/test/java/Resources/chromedriver").getCanonicalPath()); 
+       System.setProperty("webdriver.gecko.driver", new File("./src/test/java/Resources/geckodriver").getCanonicalPath()); 
        driver = new FirefoxDriver();
        //doriver = new ChromeDriver();
         driver.get("http://localhost:8085/DemoWs-1.0-SNAPSHOT/");
@@ -69,7 +69,7 @@ public class TestDemo {
         Assert.assertEquals("La temperatura es = 89.6", resultado.getText());
         
     }
-    @Ignore
+    //@Ignore
     @Test
     public void registroVacio() throws InterruptedException {
         Thread.sleep(5000);
