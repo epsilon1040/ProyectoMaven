@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Conversión de Temperatura Version 1.1</title>
+        <title>Conversión de Temperatura</title>
         
        <script src="JS/jquery.min.js"></script>
         <script type="text/javascript">
