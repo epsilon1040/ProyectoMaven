@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Conversión de Temperatura</title>
+        <title>Conversión de Temperatura Version 1.1</title>
         
        <script src="JS/jquery.min.js"></script>
         <script type="text/javascript">
@@ -34,8 +34,8 @@
         
         
     </head>
-    <body>
-        <h1>Conversión de Temperatura</h1>
+    <body style="background-color:powderblue">
+        <h1>Conversión de Temperatura Versión 1.1</h1>
         <br>
         <form name="Formulario" id="frmBuscar">
             <label> Temperatura </label>

@@ -35,33 +35,33 @@ public class TestDemo {
     
     @Before
     public void setUp() throws IOException {
-        //System.setProperty("webdriver.chrome.driver", "C://Users//1415506//Documents//Automatizadas//Clases//selenium-webdriver//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/geckodriver.exe");
        //System.setProperty("webdriver.chrome.driver", new File("./src/test/java/Resources/chromedriver.exe").getCanonicalPath()); 
-       System.setProperty("webdriver.gecko.driver", new File("./src/test/java/Resources/geckodriver.exe").getCanonicalPath()); 
+       //System.setProperty("webdriver.gecko.driver", new File("./src/test/java/Resources/geckodriver.exe").getCanonicalPath()); 
        driver = new FirefoxDriver();
        //driver = new ChromeDriver();
-        driver.get("http://localhost:8080/DemoWs/");
+        driver.get("http://localhost:8085/DemoWs-1.0-SNAPSHOT/");
     }
     
-    //@Ignore
+    @Ignore
     @Test
     public void registrarDatos() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         WebElement datoInicial = driver.findElement(By.id("temperatura"));
         datoInicial.sendKeys("32");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
                 
         Select ConversionOrigen = new Select(driver.findElement(By.name("fUnidad")));
         ConversionOrigen.selectByIndex(1);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         Select ConversionDestino = new Select(driver.findElement(By.name("tUnidad")));
         ConversionDestino.selectByIndex(2);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
       
         WebElement btnConvertir = driver.findElement(By.xpath("//*[@id=\'frmBuscar\']/button"));
         btnConvertir.click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         
         WebElement resultado = driver.findElement(By.id("resultado"));
         
@@ -72,22 +72,22 @@ public class TestDemo {
     //@Ignore
     @Test
     public void registroVacio() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         WebElement datoInicial = driver.findElement(By.id("temperatura"));
         datoInicial.sendKeys("0");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
                 
         Select ConversionOrigen = new Select(driver.findElement(By.name("fUnidad")));
         ConversionOrigen.selectByIndex(0);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         Select ConversionDestino = new Select(driver.findElement(By.name("tUnidad")));
         ConversionDestino.selectByIndex(0);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
       
         WebElement btnConvertir = driver.findElement(By.xpath("//*[@id=\'frmBuscar\']/button"));
         btnConvertir.click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         
         WebElement resultado = driver.findElement(By.id("resultado"));
         
