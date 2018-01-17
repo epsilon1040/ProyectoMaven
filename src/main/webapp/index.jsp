@@ -13,7 +13,7 @@
         
        <script src="JS/jquery.min.js"></script>
         <script type="text/javascript">
-           /* function Convertir(degree)
+           /* function Convertir()
             {
                 var valConvert;
                 
