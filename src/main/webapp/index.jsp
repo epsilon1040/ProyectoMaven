@@ -13,8 +13,19 @@
         
        <script src="JS/jquery.min.js"></script>
         <script type="text/javascript">
-            function Convertir()
+           /* function Convertir(degree)
             {
+                var valConvert;
+                
+                if (degree == "C") {
+                    valConvert = document.getElementById("c").value * 9 / 5 + 32;
+                    document.getElementById("f").value = Math.round(valConvert);
+                } else {
+                    valConvert = (document.getElementById("f").value -32) * 5 / 9;
+                    document.getElementById("c").value = Math.round(valConvert);
+                }*/
+                
+                
                 event.preventDefault();
                 $.ajax({
                     type:"POST",
