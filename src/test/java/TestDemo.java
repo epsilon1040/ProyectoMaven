@@ -40,7 +40,7 @@ public class TestDemo {
        System.setProperty("webdriver.gecko.driver", new File("./src/test/java/Resources/chromedriver").getCanonicalPath()); 
        driver = new FirefoxDriver();
        //doriver = new ChromeDriver();
-        driver.get("http://localhost:8085/DemoWs-1.4-SNAPSHOT/");
+        driver.get("http://localhost:8085/DemoWs-1.0-SNAPSHOT/");
     }
     
     @Ignore
