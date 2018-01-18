@@ -38,8 +38,8 @@ public class TestDemo {
        //System.setProperty("webdriver.chrome.driver", "/usr/bin/geckodriver");
        //System.setProperty("webdriver.chrome.driver", new File("./src/test/java/Resources/chromedriver.exe").getCanonicalPath()); 
        System.setProperty("webdriver.chrome.driver", new File("./src/test/java/Resources/chromedriver").getCanonicalPath()); 
-       driver = new FirefoxDriver();
-       //doriver = new ChromeDriver();
+       //driver = new FirefoxDriver();
+       driver = new ChromeDriver();
         driver.get("http://localhost:8085/DemoWs-1.0-SNAPSHOT/");
     }
     
