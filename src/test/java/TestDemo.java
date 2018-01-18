@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 //import static Pruebas.Driver.*;
 import junit.framework.Assert;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  *
  * @author 1415506
@@ -37,9 +37,9 @@ public class TestDemo {
     public void setUp() throws IOException {
        //System.setProperty("webdriver.chrome.driver", "/usr/bin/geckodriver");
        //System.setProperty("webdriver.chrome.driver", new File("./src/test/java/Resources/chromedriver.exe").getCanonicalPath()); 
-       System.setProperty("webdriver.gecko.driver", new File("/usr/share/geckodriver").getCanonicalPath()); 
-       driver = new FirefoxDriver();
-       //driver = new ChromeDriver();
+       System.setProperty("webdriver.chrome.driver", new File("/usr/local/share/chromedriver").getCanonicalPath()); 
+       //driver = new FirefoxDriver();
+       driver = new ChromeDriver();
         driver.get("http://18.217.78.140:8080/DemoWs/");
     }
     
