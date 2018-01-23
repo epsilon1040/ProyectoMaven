@@ -35,13 +35,13 @@
         
         
     </head>
-    <body style="background-color:cadetblue">
+    <body style="background-color:darkolivegreen">
         <h1 style="alignment-adjust:central">Conversión de Temperatura Versión 1.9</h1>
         <br>
         <form name="Formulario" id="frmBuscar">
             <label> Temperatura </label>
             <input type="text" class="form-control" name="temperatura" id="temperatura"> </input>
-            <br></br>
+           
             <label> De Unidad &zwj; &zwj; &zwj;</label>
             <select class="form-control" name="fUnidad">
                 <option>Seleccione escala</option>
@@ -51,7 +51,7 @@
                 <option value="degreeReaumur">Grados Reaumur</option>
                 <option value="kelvin">Grados kelvin</option>                              
             </select>
-            <br></br>
+         
              <label> A Unidad &zwj; &zwj; &zwj; &zwj;</label>
             <select class="form-control" name="tUnidad">
                 <option>Seleccione escala</option>
