@@ -35,8 +35,8 @@
         
         
     </head>
-    <body style="background-color:darkcyan">
-        <h1 style="alignment-adjust:central">Conversión de Temperatura Versión 1.8</h1>
+    <body style="background-color:cadetblue">
+        <h1 style="alignment-adjust:central">Conversión de Temperatura Versión 1.9</h1>
         <br>
         <form name="Formulario" id="frmBuscar">
             <label> Temperatura </label>
