@@ -39,10 +39,10 @@
         <h1 style="alignment-adjust:central">Conversión de Temperatura Versión 1.9</h1>
         <br>
         <form name="Formulario" id="frmBuscar">
-            <label> Temperatura </label>
+            <h2> Temperatura </h2>
             <input type="text" class="form-control" name="temperatura" id="temperatura"> </input>
            
-            <label> De Unidad &zwj; &zwj; &zwj;</label>
+            <h3> De Unidad &zwj; &zwj; &zwj;</h3>
             <select class="form-control" name="fUnidad">
                 <option>Seleccione escala</option>
                 <option value="degreeCelsius">Grados Celsius</option>
@@ -52,7 +52,7 @@
                 <option value="kelvin">Grados kelvin</option>                              
             </select>
          
-             <label> A Unidad &zwj; &zwj; &zwj; &zwj;</label>
+             <h3> A Unidad &zwj; &zwj; &zwj; &zwj;</h3>
             <select class="form-control" name="tUnidad">
                 <option>Seleccione escala</option>
                 <option value="degreeCelsius">Grados Celsius</option>
