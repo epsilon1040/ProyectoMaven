@@ -43,7 +43,7 @@ public class TestDemo {
         driver.get("http://18.217.78.140:8080/DemoWs/");
     }
     
-    //@Ignore
+    @Ignore
     @Test
     public void registrarDatos() throws InterruptedException {
         Thread.sleep(5000);
@@ -69,7 +69,7 @@ public class TestDemo {
         Assert.assertEquals("La temperatura es = 89.6", resultado.getText());
         
     }
-    //@Ignore
+    @Ignore
     @Test
     public void registroVacio() throws InterruptedException {
         Thread.sleep(5000);
